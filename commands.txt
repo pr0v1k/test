@@ -1,0 +1,15 @@
+# команда для копирования папки с Windows на Linux
+# пример
+# scp -r C:\zabbix itram@10.0.29.29:/home/itram
+
+
+команда для копирования папки с Windows на Windows
+	пример
+robocopy C:\zabbix \\fito777\C$\zabbix /e
+
+
+команда для удаленного управаления службами
+	пример
+sc \\fito777 stop "Zabbix Agent"
+
+
