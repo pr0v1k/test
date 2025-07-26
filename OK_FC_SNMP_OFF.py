@@ -1,8 +1,8 @@
 import paramiko
 
-device_ips = ["10.0.19." + str(i) for i in range(1, 30)]
+device_ips = ["192.168.0." + str(i) for i in range(1, 30)]
 username = "admin"
-password = "rbhgbxdjryf"
+password = "password"
 commands = [
     "/snmp/set enabled=no",
     "/snmp/set contact=\"\"",
